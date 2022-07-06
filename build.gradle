@@ -7,6 +7,10 @@ plugins {
 group 'kg.cbk'
 version '1.0-SNAPSHOT'
 
+jar {
+    enabled = true
+}
+
 repositories {
     mavenCentral()
 }
